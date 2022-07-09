@@ -1,5 +1,5 @@
 ### git初始化
-
+my boyfriend is a pig, he do not make me to play with little qiuqiu/
 * 生成密钥
 ```
 ”cmd“中输入ssh-keygen命令生成SSH密钥
