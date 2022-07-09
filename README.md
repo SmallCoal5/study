@@ -85,6 +85,23 @@ public:
 };
 ```
 
+### 树状数组
+``` C++
+    int lowbit(int x) { return x&(-x);}
+
+    void update(int i,int val,vector<int>&b){
+        for(int j=i;j<b.size();j+=lowbit(j)){
+            b[j]+=val;
+        }
+    }
+    int sums(int i,vector<int>&b){
+        int res = 0;
+        for(int j=i;j>0;j-=lowbit(j))
+        res += b[j];
+        return res;
+
+    }
+```
 ### 快速选择
 
 ``` C++
