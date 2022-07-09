@@ -1,14 +1,16 @@
-git初始化
+### git初始化
 
-1.生成密钥
-
+* 生成密钥
+```
 ”cmd“中输入ssh-keygen命令生成SSH密钥
+```
+
 
 目录：C:\Users\cl\.ssh
 
 ![1655879561049](C:\Users\cl\AppData\Roaming\Typora\typora-user-images\1655879561049.png)
 
-免密登录
+* 免密登录
 
 ![1655880544449](C:\Users\cl\AppData\Roaming\Typora\typora-user-images\1655880544449.png)
 
@@ -18,8 +20,8 @@ git初始化
 
 全局设置（如用户名、邮箱。）
 
-```
-git config --global user.name "your name"      // 设置全局用户名
+``` git
+git config --global user.name "SmallCoal5"      // 设置全局用户名
 git config --global user.email "944635212@qq.com"    // 设置邮箱
 ```
 
